@@ -1,7 +1,11 @@
 package com.service;
 
+import com.model.DatosGuau;
+import com.model.DatosInicio;
+
 public interface Prueba {
 	
-	public String inicio();
+	public DatosInicio inicio();
+	public DatosGuau guau();
 
 }
